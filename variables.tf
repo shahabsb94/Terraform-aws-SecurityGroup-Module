@@ -10,6 +10,14 @@ variable "vpc_id" {
   
 }
 
+variable "sg_name"{
+
+}
+
+variable "sg_description" {
+    
+}
+
 variable "common_tags" {
   type = map
 }
